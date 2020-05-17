@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle atom-regex-extractor",
+        "label": "Extract Search's Results",
         "command": "atom-regex-extractor:extract"
       }
     ]
