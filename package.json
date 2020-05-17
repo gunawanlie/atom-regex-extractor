@@ -2,11 +2,11 @@
   "name": "atom-regex-extractor",
   "main": "./lib/atom-regex-extractor",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Atom package to extract search's results by regular expression as strings into a new file.",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "atom-regex-extractor:toggle"
+    "atom-workspace": "atom-regex-extractor:extract"
   },
   "repository": "https://github.com/atom/atom-regex-extractor",
   "license": "MIT",
