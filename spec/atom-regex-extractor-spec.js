@@ -23,7 +23,7 @@ describe('AtomRegexExtractor', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'atom-regex-extractor:toggle');
+      atom.commands.dispatch(workspaceElement, 'atom-regex-extractor:extract');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('AtomRegexExtractor', () => {
 
         let atomRegexExtractorPanel = atom.workspace.panelForItem(atomRegexExtractorElement);
         expect(atomRegexExtractorPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'atom-regex-extractor:toggle');
+        atom.commands.dispatch(workspaceElement, 'atom-regex-extractor:extract');
         expect(atomRegexExtractorPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('AtomRegexExtractor', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'atom-regex-extractor:toggle');
+      atom.commands.dispatch(workspaceElement, 'atom-regex-extractor:extract');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('AtomRegexExtractor', () => {
         // Now we can test for view visibility
         let atomRegexExtractorElement = workspaceElement.querySelector('.atom-regex-extractor');
         expect(atomRegexExtractorElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'atom-regex-extractor:toggle');
+        atom.commands.dispatch(workspaceElement, 'atom-regex-extractor:extract');
         expect(atomRegexExtractorElement).not.toBeVisible();
       });
     });

@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "atom-regex-extractor:toggle"
+    "atom-workspace": "atom-regex-extractor:extract"
   },
   "repository": "https://github.com/atom/atom-regex-extractor",
   "license": "MIT",

@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Toggle atom-regex-extractor",
-        "command": "atom-regex-extractor:toggle"
+        "command": "atom-regex-extractor:extract"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-regex-extractor",
+          "label": "Regex Extractor",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "atom-regex-extractor:toggle"
+              "label": "Extract Search's Results",
+              "command": "atom-regex-extractor:extract"
             }
           ]
         }
