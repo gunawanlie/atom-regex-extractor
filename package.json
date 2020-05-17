@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "atom-regex-extractor:extract"
   },
-  "repository": "https://github.com/atom/atom-regex-extractor",
+  "repository": "https://github.com/gunawanlie/atom-regex-extractor",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
