@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-regex-extractor:toggle"
+    "ctrl-alt-cmd-e": "atom-regex-extractor:extract"
   }
 }
