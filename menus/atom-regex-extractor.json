@@ -1,6 +1,6 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    ".preview-pane": [
       {
         "label": "Extract Search's Results",
         "command": "atom-regex-extractor:extract"
