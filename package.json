@@ -1,7 +1,7 @@
 {
   "name": "atom-regex-extractor",
   "main": "./lib/atom-regex-extractor",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Atom package to extract search's results by regular expression as strings into a new file.",
   "keywords": [],
   "activationCommands": {
