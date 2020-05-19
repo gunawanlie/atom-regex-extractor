@@ -15,6 +15,7 @@ Atom package to extract search's results by regular expression as strings into a
 - Extract the result into a new file with these options:
   - Click `Packages` Menu > `Regex Extractor` > `Extract Search's results`
   - Keyboard Shortcut Ctrl + Alt + Cmd + E (**⌃⌥⌘E**)
+![Turning on regex option animation](https://github.com/gunawanlie/atom-regex-extractor/blob/master/docs/extract-regex-search-results-in-file.gif)
 
 ### Extract Results in Current Project
 
@@ -29,3 +30,4 @@ Atom package to extract search's results by regular expression as strings into a
   - Click `Packages` Menu > `Regex Extractor` > `Extract Search's results`
   - Keyboard Shortcut Ctrl + Alt + Cmd + E (**⌃⌥⌘E**)
   - Right click in preview results, click `Extract Search's results` menu
+![Turning on regex option animation](https://github.com/gunawanlie/atom-regex-extractor/blob/master/docs/extract-regex-search-results-in-project.gif)
