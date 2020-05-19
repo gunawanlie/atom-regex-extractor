@@ -3,7 +3,17 @@
   "main": "./lib/atom-regex-extractor",
   "version": "0.5.0",
   "description": "Atom package to extract search's results by regular expression as strings into a new file.",
-  "keywords": [],
+  "keywords": [
+    "regex",
+    "extract",
+    "export",
+    "copy",
+    "regular",
+    "expression",
+    "find",
+    "search",
+    "result"
+  ],
   "activationCommands": {
     "atom-workspace": "atom-regex-extractor:extract"
   },
