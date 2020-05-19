@@ -20,7 +20,7 @@ Atom package to extract search's results by regular expression as strings into a
 ### Extract Results in Current Project
 
 - Open the common search in project function with these options:
-  - Click `Find` Menu > `Find in Buffer`
+  - Click `Find` Menu > `Find in Project`
   - Keyboard Shortcut Shift + Cmd + F (**⇧⌘F**).
 - Turn on regex option.<br />
 ![Turning on regex option animation](https://github.com/gunawanlie/atom-regex-extractor/blob/master/docs/turning-on-regex-option.gif)
